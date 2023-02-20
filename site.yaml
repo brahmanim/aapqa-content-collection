@@ -4,7 +4,7 @@
   vars:
     collection_path: /usr/share/ansible/collections/ansible_collections
     integration_tests_path: "{{ collection_path }}/{{ collection_namespace }}/{{ collection_name }}/tests/integration/targets"
-    integration_tests_pattern: "{{ collection_name }}_interfaces"
+    integration_tests_pattern: "{{ collection_name }}_junos_facts"
     integration_target_failures: []
 
   tasks:
