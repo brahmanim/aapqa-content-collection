@@ -4,7 +4,7 @@
   vars:
     collection_path: /usr/share/ansible/collections/ansible_collections
     integration_tests_path: "{{ collection_path }}/{{ collection_namespace }}/{{ collection_name }}/tests/integration/targets"
-    integration_tests_pattern: "{{ collection_name }}_firewall_global"
+    integration_tests_pattern: "{{ collection_name }}_lldp_global"
     integration_target_failures: []
 
   tasks:
