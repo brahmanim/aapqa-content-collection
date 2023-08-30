@@ -7,7 +7,7 @@ collection_name }}_*".
 ## Steps
 
 - `git clone https://github.com/brahmanim/aapqa-content`
-- `cd aapqa-content`
+- `cd aapqa-content/ansible_collections/contentqa/integrationtests`
 - `Update the relevant inventory file`
 - `Login to RH VPN`
 - `podman pull <the EE image that you create from your content collection repo>`
