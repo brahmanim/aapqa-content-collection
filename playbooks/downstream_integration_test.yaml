@@ -34,7 +34,7 @@
 
     - name: Run integration tests
       include_role:
-        name: aapqa-content.aapqa-content
+        name: brahmanim.aapqa-content.aapqa-content
         tasks_from: "run_integration_tests"
       with_items:
         - "{{ _integration_targets }}"
